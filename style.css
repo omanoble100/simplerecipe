@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body{
+   
+    margin: 0px;
+    padding: auto;
+    
+}
+
+.image-field{
+    margin-top: 40px;
+}
+
+
+.image-field img {
+    display: block;
+    margin: auto;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.text-area {
+    width: 80%;
+    margin: 50px auto ;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-area h1 {
+    font-family: 'Young Serif', serif;
+    font-size: 50px;
+    /* margin-bottom: 0; */
+}
+
+.first-text {
+    font-family: 'Outfit', serif;
+    font-size: 25px;
+    margin-top: 5px;
+    line-height: 40px;
+    margin-bottom: 70px;
+}
+
+.second-area{
+    background-color: hsl(330, 100%, 98%);
+    padding: 2rem;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+    padding-left: 3rem;
+    margin-bottom: 70px;
+}
+
+.second-area p {
+    font-size: 35px;
+    font-weight: bolder;
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit', serif;
+}
+
+.second-area ul li {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color:  hsl(30, 10%, 34%);
+    padding-left: 25px;
+}
+
+.third-area {
+    font-family: 'Young Serif', serif;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.third-area h2 {
+    font-size: 35px;
+    color: hsl(32, 88%, 37%);
+    margin-bottom: 0;
+}
+
+.third-area ul li {
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 15px;
+}
+
+.fourth-area {
+    margin-top: 50px;
+    font-family: 'Young Serif', serif;
+    margin-bottom: 70px;
+}
+
+.fourth-area h2 {
+    font-size: 35px;
+    color: hsl(32, 88%, 37%);
+    margin-bottom: 0;
+}
+
+
+.fourth-area ol li {
+    font-family: 'Outfit', serif;
+    font-size: 20px;
+    padding-left: 15px;
+    line-height: 40px ;
+    color:  hsl(30, 10%, 34%);
+}
+
+.fourth-area ol li::marker {
+    color: hsl(32, 88%, 37%);
+    font-weight: bold;
+}
+
+.fifth-area {
+    margin-top: 50px;
+    font-family: 'Young Serif', serif;
+}
+
+.fifth-area h2 {
+    font-size: 35px;
+    color: hsl(32, 88%, 37%);
+    margin-bottom: 0;
+}
+
+.fifth-area p {
+    font-family: 'Outfit', serif;
+    font-size: 25px;
+    color:  hsl(30, 10%, 34%);
+}
+
+.fifth-area table {
+    width: 100%;
+    /* border: 1px solid hsl(30, 10%, 34%); */
+    font-family: 'Outfit', serif;
+    font-size: 20px;
+}
+
+
+.fifth-area table tr {
+   height: 70px;
+  
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+  }
+
+.title {
+    color:  hsl(30, 10%, 34%);
+}
+
+.amount {
+    color: hsl(32, 88%, 37%);
+    font-weight: bold;
+}
+
+.attribution {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 750px) {
+    .image-field{
+        margin-top: 0px;
+    }
+
+    .image-field img {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    .text-area {
+        width: 90%;
+       
+    }
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .text-area h1 {
+        
+        font-size: 30px;
+        
+    }
+    
+    .first-text {
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 40px;
+    }
+    
+    .second-area{
+        padding: 1rem;
+        padding-left: 1rem;  
+    }
+    
+    .second-area p {
+        font-size: 25px;
+    
+    }
+    
+    .second-area ul li {
+        font-size: 20px;
+        line-height: 30px;
+        padding-left: 10px;
+    }
+
+    .third-area h2, .fourth-area h2, .fifth-area h2 {
+        font-size: 27px;
+    }
+
+    .fifth-area p {
+        font-size: 20px;
+    }
+    
+    .fifth-area table {
+        font-size: 18px;
+    }
+}
